@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: radial-gradient(circle, rgba(39,231,161,0.7903536414565826) 0%, rgba(48,131,217,0.969625350140056) 100%);
+}
+
+.row{
+    padding: 0 2%;
+}
+
+
+/* food menu section ends */
+
+.heading h1 {
+    padding-top: 25px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.food_menu_sec .row{
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.box{
+    width: 90%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+    border: 4px solid #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 30px 0;
+}
+
+
+.content-name{
+    display: flex;
+    justify-content: flex-end;
+}
+.content-name p{
+    border-left: 4px solid #000000 ;
+    border-bottom: 4px solid #000000 ;
+    padding: 0 10%;
+}
+
+
+.name1 p{
+    background-color: #FFB6C1;
+}
+
+.name2 p{
+    color: white;
+    background-color: #FF0000;
+}
+.name3 p{
+    background-color: #FFFF00;
+}
+
+
+p.content{
+    padding: 5%;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
+} 
+
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+    display: flex;
+    justify-content: center;
+}
+
+/* food menu section ends */
+
